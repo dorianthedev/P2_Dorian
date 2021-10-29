@@ -20,21 +20,18 @@ body {
 
 header {
    display: flex;
-
 }
 
 header img {
     width: 100px;
 }
 
-.logo {
-    margin-right: auto;
-    
-}
 nav {
     justify-content: flex-end;
     margin-left: auto;
 }
+/******* flex-end pour la nav à droire
+ et margin-left pour séparer le bloc logo*******/
 
 ul {
     display: flex;
@@ -48,7 +45,7 @@ a {
     text-decoration: none;
     margin: 0 35px;
     color: black;
-    font-weight: 500;
+    font-weight: 600;
     margin-right: 0px;
    
 }
