@@ -76,19 +76,32 @@ a:hover, a:focus {
 
     ul { 
         display: flex;
-        justify-content: space-around;
-        margin: 0 0 0 0;
+        margin: 0 -35PX;
         padding: 0 0 0 0;
     }
-    a {
-        margin: 0 0 0 0;
+    a {    
+        text-align: center;
+        margin-left: 0px;    
     }
 
-    a:hover, a:focus {
-        color: black;
+    li {
+        border-bottom: 2px #F2F2F2 solid;
+        width: 50%;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+    li:hover, li:focus {
+        width: 50%;
+        color: #0065FC;
         border-bottom: 2px solid #0065FC;
         border-top: none;
-        padding: 0 0 13px 0;
+        text-align: center;
+    }
+    a:hover, a:focus {
+    color:  black;
+    border-top: none;
+    text-align: center;
+    margin-left: 0px;      
     }
 }
   
