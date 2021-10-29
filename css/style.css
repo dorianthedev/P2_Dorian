@@ -1,6 +1,65 @@
+
+/******* Données supplémentaire (font...) *******/
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+
+/******* style global site *******/
 
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+
+/******* style tout le body *******/
+
+body {
+    margin: 0 35px;
+}
+
+/******* Header version desktop *******/
+
+header {
+   display: flex;
+border: 1px black solid;
+
+}
+
+.logo {
+    margin-right: auto;
+    
+}
+nav {
+    justify-content: flex-end;
+    border: 1px black solid;
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+a { 
+    text-decoration: none;
+    margin: 0 35px;
+    color: black;
+    font-weight: 500;
+    margin-right: 0px;
+   
+}
+a:hover, a:active {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+
+/******* Header version tablet *******/
+
+
+/******* Header version mobile *******/
+@media screen and (max-width: 768px) {
+    
+}
+
