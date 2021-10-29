@@ -38,15 +38,15 @@ nav {
 /******* flex-end pour la nav à droire
  et margin-left pour séparer le bloc logo*******/
 
-ul {
+nav ul {
     display: flex;
 }
 
-li {
+nav li {
     list-style-type: none;
 }
 
-a { 
+nav a { 
     text-decoration: none;
     margin: 0 35px;
     color: black;
@@ -54,7 +54,7 @@ a {
     margin-right: 0px;
    
 }
-a:hover, a:focus {
+nav a:hover, nav a:focus {
     color: #0065FC;
     border-top: 2px solid #0065FC;
     padding: 10px 0 0 0;
@@ -74,30 +74,30 @@ a:hover, a:focus {
         text-align: center;        
     }
 
-    ul { 
+    nav ul { 
         display: flex;
         margin: 0 -35PX;
         padding: 0 0 0 0;
     }
-    a {    
+    nav a {    
         text-align: center;
         margin-left: 0px;    
     }
 
-    li {
+    nav li {
         border-bottom: 2px #F2F2F2 solid;
         width: 50%;
         text-align: center;
         padding-bottom: 16px;
     }
-    li:hover, li:focus {
+    nav li:hover, nav li:focus {
         width: 50%;
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
         border-top: none;
         text-align: center;
     }
-    a:hover, a:focus {
+    nav a:hover, nav a:focus {
     color:  black;
     border-top: none;
     text-align: center;
@@ -124,4 +124,62 @@ section h1 p formulaire de recherche
 
 .h1_formulaire p {
     font-size: 12px;
+}
+
+/******* TABLET section h1 p formulaire de recherche *******/
+
+
+/******* MOBILE section h1 p formulaire de recherche *******/
+@media screen and (max-width: 768px) {
+
+    .h1_formulaire {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .h1_formulaire h1 {
+        font-size: 22px;
+        font-weight: 800;
+    }
+}
+
+
+
+
+
+
+
+/******* 
+*******************************************
+section FOOTER
+*******************************************
+*******/
+footer {
+    background-color: #f2F2F2;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer h3 {
+    font-size: 14px;
+    margin: 0 35px 0 35px;
+}
+
+footer ul {
+    padding-left: 0px;
+    
+}
+
+footer li {
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.block1, .block2, .block3 {
+    margin: 0px 35px;
 }
