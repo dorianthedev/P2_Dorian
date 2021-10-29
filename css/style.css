@@ -115,6 +115,7 @@ section h1 p formulaire de recherche
 .h1_formulaire {
     width: 45%;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .h1_formulaire h1 {
