@@ -1,7 +1,8 @@
 
 /******* Données supplémentaire (font...) *******/
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
 
 /******* style global site *******/
 
@@ -16,7 +17,11 @@ body {
     margin: 0 35px;
 }
 
-/******* Header version desktop *******/
+/******* 
+*******************************************
+Header version desktop 
+*******************************************
+*******/
 
 header {
    display: flex;
@@ -49,9 +54,10 @@ a {
     margin-right: 0px;
    
 }
-a:hover, a:active {
+a:hover, a:focus {
     color: #0065FC;
     border-top: 2px solid #0065FC;
+    padding: 10px 0 0 0;
 }
 
 /******* Header version tablet *******/
@@ -78,10 +84,31 @@ a:hover, a:active {
         margin: 0 0 0 0;
     }
 
-    a:hover, a:active {
+    a:hover, a:focus {
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
         border-top: none;
+        padding: 0 0 13px 0;
     }
 }
+  
 
+/******* 
+*******************************************
+section h1 p formulaire de recherche
+*******************************************
+*******/
+
+.h1_formulaire {
+    width: 45%;
+    margin-top: 30px;
+}
+
+.h1_formulaire h1 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.h1_formulaire p {
+    font-size: 12px;
+}
