@@ -193,7 +193,11 @@ footer li {
         flex-direction: column;
     }
     .block1, .block2, .block3 {
-        margin: 0px 45px;
+        margin: 0px 35px;
+    }
+
+    footer li {
+        padding-left: 0px;
     }
 
 }
