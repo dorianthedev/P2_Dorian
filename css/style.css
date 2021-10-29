@@ -60,6 +60,23 @@ a:hover, a:active {
 
 /******* Header version mobile *******/
 @media screen and (max-width: 768px) {
-    
+
+    header{
+        display: block;
+    }
+    .logo {
+        margin: auto;
+        text-align: center;        
+    }
+
+    ul { 
+        display: flex;
+        justify-content: space-around;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    a {
+        margin: 0 0 0 0;
+    }
 }
 
