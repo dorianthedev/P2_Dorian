@@ -85,6 +85,7 @@ a:hover, a:focus {
     }
 
     a:hover, a:focus {
+        color: black;
         border-bottom: 2px solid #0065FC;
         border-top: none;
         padding: 0 0 13px 0;
