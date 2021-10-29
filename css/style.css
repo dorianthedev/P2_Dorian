@@ -175,11 +175,25 @@ footer ul {
 
 footer li {
     list-style-type: none;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
 .block1, .block2, .block3 {
     margin: 0px 35px;
+}
+
+/******* TABLET footer *******/
+
+
+/******* MOBILE footer *******/
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+    .block1, .block2, .block3 {
+        margin: 0px 45px;
+    }
+
 }
