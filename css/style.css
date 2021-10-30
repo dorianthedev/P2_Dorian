@@ -180,15 +180,11 @@ form {
 
 .fa-search {
     color: white;
+    display: none;
 }
 
 /******* PC section h1 p formulaire de recherche *******/
 
-@media screen and (min-width: 769px) {
-    .fa-search {
-        display: none;
-    }
-}
 
 
 /******* TABLET section h1 p formulaire de recherche *******/
