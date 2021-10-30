@@ -234,6 +234,12 @@ section filtres
 *******************************************
 *******/
 
+.filtres {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
 .filtre_economique {
     display: inline-flex;
     height: 40px;
@@ -256,15 +262,19 @@ section filtres
 
 .text_economique {
     width: auto;
-    border: 1px solid black;
+    border: 2px solid #F2F2F2;
     margin: auto;
     height: 40px;
     display: flex;
     align-items: center;
     border-radius: 0 25px 25px 0;
-    padding: 0 15px 0 15px;
+    padding: 0 20px 0 20px;
     border-left: none;
     
+}
+
+.fa-money-bill-wave {
+    color: #0065FC
 }
 
  
