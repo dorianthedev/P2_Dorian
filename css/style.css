@@ -156,7 +156,15 @@ form {
     border-left: none;
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
+    color: black;
+    font-weight: 600;
     
+}
+
+::placeholder {
+    color: black;
+    padding-left: 10px;
+    font-weight: 600;
 }
 
 .button_search_form {
@@ -167,6 +175,7 @@ form {
 
 .button_text {
     color: white;
+    font-weight: 600;
 }
 
 .fa-search {
@@ -198,6 +207,19 @@ form {
         font-size: 22px;
         font-weight: 800;
     }
+
+    .button_search_form {
+        border-radius: 15px 15px 15px 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .button_text {
+        display: none;
+
+    }
+
+    
 }
 
 
