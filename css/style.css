@@ -234,6 +234,10 @@ section filtres
 *******************************************
 *******/
 
+.filtres h3 {
+    margin-right: 30px;
+}
+
 .filtres {
     margin-bottom: 30px;
     display: flex;
@@ -245,6 +249,7 @@ section filtres
     display: inline-flex;
     height: 40px;
     align-items: center;
+    margin-left: -12px;
     
 }
 
