@@ -236,22 +236,34 @@ section filtres
 
 .filtre_economique {
     display: inline-flex;
-    height: 35px;
-    border: 1px solid black;
+    height: 40px;
     align-items: center;
     
 }
 
 .icon_economique {
-    margin
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    position: relative;
+    right: -12px;
+    
 }
 
 .text_economique {
+    width: auto;
     border: 1px solid black;
     margin: auto;
-    height: 35px;
+    height: 40px;
     display: flex;
     align-items: center;
+    border-radius: 0 25px 25px 0;
+    padding: 0 15px 0 15px;
+    border-left: none;
     
 }
 
