@@ -138,13 +138,16 @@ form {
 
 .icon_map_search_form {
     background-color: #F2F2F2;
-    width: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
+    border-radius: 15px 0 0 15px;
+    
 }
 
 .fa-map-marker-alt {
     position: relative;
-    top: 25%;
+    top: 30%;
     
 }
 
@@ -156,8 +159,27 @@ form {
     
 }
 
+.button_search_form {
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0 15px 15px 0;
+}
 
+.button_text {
+    color: white;
+}
 
+.fa-search {
+    color: white;
+}
+
+/******* PC section h1 p formulaire de recherche *******/
+
+@media screen and (min-width: 768px) {
+    .fa-search {
+        display: none;
+    }
+}
 
 
 /******* TABLET section h1 p formulaire de recherche *******/
