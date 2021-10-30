@@ -234,7 +234,26 @@ section filtres
 *******************************************
 *******/
 
+.filtre_economique {
+    display: inline-flex;
+    height: 35px;
+    border: 1px solid black;
+    align-items: center;
+    
+}
 
+.icon_economique {
+    margin
+}
+
+.text_economique {
+    border: 1px solid black;
+    margin: auto;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    
+}
 
  
 
