@@ -186,7 +186,7 @@ form {
 
 /******* PC section h1 p formulaire de recherche *******/
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) {
     .fa-search {
         display: none !important;
     }
@@ -194,6 +194,12 @@ form {
 
 
 /******* TABLET section h1 p formulaire de recherche *******/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .fa-search {
+        display: none !important;
+    }
+}
 
 
 /******* MOBILE section h1 p formulaire de recherche *******/
