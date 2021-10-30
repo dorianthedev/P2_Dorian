@@ -188,7 +188,7 @@ form {
 
 @media screen and (min-width: 769px) {
     .fa-search {
-        display: none;
+        display: none !important;
     }
 }
 
