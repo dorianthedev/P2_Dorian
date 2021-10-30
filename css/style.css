@@ -131,6 +131,8 @@ form {
     max-width: 100%;
 }
 
+/******* css button search et icon *******/
+
 .search_form {
    display: flex;
    height: 50px;
@@ -219,9 +221,6 @@ form {
     }
     
 }
-
-
-
 
 
 
