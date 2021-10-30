@@ -228,6 +228,28 @@ form {
 }
 
 
+/******* 
+*******************************************
+section filtres
+*******************************************
+*******/
+
+.filtres {
+    display: flex;
+}
+
+.filtres p {
+   margin-right: 25px;
+   max-width: 100%;
+   font-weight: 600;
+}
+
+
+.boxfiltres {
+    display: flex  
+    
+}
+
 
 
 /******* 
