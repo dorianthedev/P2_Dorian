@@ -184,7 +184,7 @@ form {
 
 /******* PC section h1 p formulaire de recherche *******/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .fa-search {
         display: none;
     }
