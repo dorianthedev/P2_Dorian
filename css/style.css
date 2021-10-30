@@ -234,24 +234,24 @@ section filtres
 *******************************************
 *******/
 
-.filtres {
-    display: flex;
-    max-width: 100%;
+.titrefiltres {
+    margin-right: 30px;
 }
 
-.filtres p {
-   margin-right: 70px;
-   font-weight: 600;
+.titrefiltres, .boxfiltre {
+    display: inline-block;
+    vertical-align: top;
+
 }
 
+.economique, .familial, .romantique, .animaux_autorises {
+    display: inline-block;
 
-.boxfiltres {
-    display: flex;
-    flex-wrap: wrap;
-    
 }
 
-
+.icon_money, .text_eco {
+    display: inline-block;
+}
 
 /******* 
 *******************************************
