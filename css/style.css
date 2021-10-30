@@ -127,20 +127,36 @@ section h1 p formulaire de recherche
     font-size: 12px;
 }
 
+form {
+    max-width: 100%;
+}
 
 .search_form {
-   display: inline-flex;
+   display: flex;
    height: 50px;
 }
 
 .icon_map_search_form {
     background-color: #F2F2F2;
     width: 50px;
+    text-align: center;
+}
+
+.fa-map-marker-alt {
+    position: relative;
+    top: 25%;
+    
 }
 
 .input_search_form {
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
     
 }
+
+
 
 
 
