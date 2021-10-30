@@ -236,17 +236,18 @@ section filtres
 
 .filtres {
     display: flex;
+    max-width: 100%;
 }
 
 .filtres p {
-   margin-right: 25px;
-   max-width: 100%;
+   margin-right: 70px;
    font-weight: 600;
 }
 
 
 .boxfiltres {
-    display: flex  
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
