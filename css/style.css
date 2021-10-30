@@ -238,8 +238,15 @@ section filtres
     margin-right: 30px;
 }
 
-.boxfiltre {
-    display: flex;
+.titrefiltres, .boxfiltre {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.economique, .familial, .romantique, .animaux_autorises {
+    display: inline-block;
+
 }
 
 .icon_money, .text_eco {
