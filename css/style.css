@@ -234,18 +234,24 @@ section filtres
 *******************************************
 *******/
 
+.filtres h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .titrefiltres {
     margin-right: 30px;
 }
 
 .titrefiltres, .boxfiltre {
     display: inline-block;
-    vertical-align: top;
+    
 
 }
 
 .economique, .familial, .romantique, .animaux_autorises {
     display: inline-block;
+    font-weight: 500;
 
 }
 
