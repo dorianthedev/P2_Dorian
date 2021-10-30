@@ -127,6 +127,23 @@ section h1 p formulaire de recherche
     font-size: 12px;
 }
 
+
+.search_form {
+   display: inline-flex;
+   height: 50px;
+}
+
+.icon_map_search_form {
+    background-color: #F2F2F2;
+    width: 50px;
+}
+
+.input_search_form {
+    
+}
+
+
+
 /******* TABLET section h1 p formulaire de recherche *******/
 
 

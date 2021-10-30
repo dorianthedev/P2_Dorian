@@ -26,14 +26,29 @@
         </header>
 <!-- FIN: MISE EN PLACE DU HEADER --> 
 
+<!-- DEBUT: Section recherche-->
 <!-- DEBUT: Section recherche--> 
+
+        <!-- DEBUT: titre et paragraphes--> 
         <section class="h1_formulaire">
 
             <h1>Trouvez votre hébergements pour des vacances de rêves </h1>
             <p>En plein centre ville ou en pleine nature</p>
+        <!-- FIN: titre et paragraphes--> 
 
-            <form method="post" action="traitement.php">
-                <input type="search" placeholder="Marseille, FRANCE" />
+        <!-- DEBUT: boutton search--> 
+
+            <form class="search_form" method="post" action="traitement.php">
+                <span class="icon_map_search_form">
+                    <i class="fas fa-map-marker-alt"></i>
+                </span>
+
+                <input class="input_search_form" type="search" placeholder="Marseille, FRANCE"/>
+                
+                <button class="button_search_form">
+                    <span class="button_text">Rechercher</span>
+                    <i class="fas fa-search"></i>
+                </button>
             </form>
 
         </section>
