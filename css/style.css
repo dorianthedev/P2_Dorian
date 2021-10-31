@@ -368,7 +368,7 @@ section card hebergements
 main {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    
     margin: 0 0 50px 0;
 }
 
@@ -380,6 +380,8 @@ main {
     border-radius: 25px;
     padding: 32px;
     min-width: 250px;
+    width: 65%;
+    margin-right: 50px;
 }
 
 .all_card_hosting {
@@ -400,7 +402,7 @@ main {
     padding: 5px;
     border-radius: 20px;
     box-shadow: 0px 0px 6px 0px #0000002e;
-    min-height: 200px;
+    min-height: 170px;
     width: 29%;
     transition: transform 0.2s;
 }
@@ -420,15 +422,16 @@ main {
 .block_txt_hebergement {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    row-gap: 8px;
-    padding: inherit;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+    row-gap: 5px;
 }
 
 .title_card_hebergement {
     margin: 0;
     padding-top: 3px;
-    min-width: 188px;
+    min-width: 205px;
 }
 
 .price_card_hebergement {
@@ -441,6 +444,7 @@ a {
 
 .fa-star {
     color: #0065FC;
+    font-size: 12px;
 
 }
 .pas_evalue {
@@ -449,6 +453,14 @@ a {
 
 .block_txt_hebergement h3, p {
     color: black;
+}
+
+.block_txt_hebergement h3 {
+    font-size: 16px;
+}
+
+.block_txt_hebergement p {
+    font-size: 14px;
 }
 
 /******* 
@@ -462,6 +474,11 @@ section card les plus populaires
     background: #F2F2F2;
     border-radius: 25px;
     padding: 32px;
+}
+
+.plus_pop h2 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .all_card_pop {
@@ -490,7 +507,7 @@ section card les plus populaires
     width: 35%;
 }
 
-.img_hebergement {
+.img_pop {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -499,7 +516,7 @@ section card les plus populaires
     border-bottom-left-radius: 20px;
 }
 
-.block_txt_hebergement {
+.block_txt_pop {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -515,6 +532,18 @@ section card les plus populaires
 
 .price_card_pop {
     margin: 0 0 20px 0;
+}
+
+.block_txt_pop h3, p {
+    color: black;
+}
+
+.block_txt_pop h3 {
+    font-size: 16px;
+}
+
+.block_txt_pop p {
+    font-size: 14px;
 }
 
 /******* 
