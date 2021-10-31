@@ -269,8 +269,8 @@ section filtres
     background-color: #DEEBFF;
     position: relative;
     right: -20px;
-    
 }
+
 
 .text_economique {
     width: auto;
@@ -285,6 +285,10 @@ section filtres
     
 }
 
+.text_economique:hover {
+    background-color: #DEEBFF;
+}
+
 .fa-money-bill-wave, .fa-heart, .fa-dog, .fa-child {
     color: #0065FC
 }
@@ -293,6 +297,7 @@ section filtres
     font-size: 14px;
     font-weight: 700;
 }
+
 
 /******* 
 *******************************************
