@@ -361,14 +361,161 @@ section informations
 section card hebergements et les plus populaires
 ************************************************
 *******/
+
+/******* 
+section card hebergements 
+*******/
 main {
-    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0 0 50px 0;
 }
 
 #hosting {
-
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #F2F2F2;
+    border-radius: 25px;
+    padding: 32px;
+    min-width: 250px;
 }
 
+.all_card_hosting {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 30px;
+    column-gap: 30px;
+    padding: 15px 0;
+    margin-right: -30px;
+}
+
+.card_hebergement {
+    display: flex;
+    background: white;
+    min-width: 240px;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 0px #0000002e;
+    min-height: 200px;
+    width: 29%;
+    transition: transform 0.2s;
+}
+
+.block_img_hebergement {
+    height: 100px;
+}
+
+.img_hebergement {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.block_txt_hebergement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 8px;
+    padding: inherit;
+}
+
+.title_card_hebergement {
+    margin: 0;
+    padding-top: 3px;
+    min-width: 188px;
+}
+
+.price_card_hebergement {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa-star {
+    color: #0065FC;
+
+}
+.pas_evalue {
+    color: #F2F2F2;
+}
+
+.block_txt_hebergement h3, p {
+    color: black;
+}
+
+/******* 
+section card les plus populaires
+*******/
+.plus_pop {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 327px;
+    background: #F2F2F2;
+    border-radius: 25px;
+    padding: 32px;
+}
+
+.all_card_pop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    max-height: 619px;
+    row-gap: 30px;
+}
+
+.card_pop {
+    min-width: 100%;
+    background-color: #ffffffff;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(225 225 225);
+    min-height: 130px;
+    max-height: 130px;
+    transition: transform 0.2s;
+}
+
+.img_card_pop {
+    width: 35%;
+}
+
+.img_hebergement {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.block_txt_hebergement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+    row-gap: 5px;
+}
+
+.title_card_pop {
+    margin: 0;
+    max-width: 185px;
+}
+
+.price_card_pop {
+    margin: 0 0 20px 0;
+}
 
 /******* 
 *******************************************
