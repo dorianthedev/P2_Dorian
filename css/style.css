@@ -240,7 +240,7 @@ section filtres
 }
 
 .filtres {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -250,7 +250,7 @@ section filtres
     display: flex;
     height: 40px;
     align-items: center;
-    margin-left: -15px;
+    margin-left: -21px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -285,7 +285,7 @@ section filtres
     
 }
 
-.fa-money-bill-wave {
+.fa-money-bill-wave, .fa-heart, .fa-dog, .fa-child {
     color: #0065FC
 }
 
@@ -294,7 +294,46 @@ section filtres
     font-weight: 700;
 }
 
+/******* 
+*******************************************
+section informations
+*******************************************
+*******/
+
+.info_suppl {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    align-content: center;
+}
+
+.text_info_suppl {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.icon_info {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #F2F2F2;
+    
+}
+
+.fa-info {
+    color: #0065FC;
+    font-size: 12px;
+}
  
+.box_text_info_suppl {
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+
+}
 
 /******* 
 *******************************************
