@@ -135,13 +135,13 @@ form {
 
 .search_form {
    display: flex;
-   height: 50px;
+   height: 40px;
 }
 
 .icon_map_search_form {
     background-color: #F2F2F2;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
     border-radius: 15px 0 0 15px;
     
@@ -167,6 +167,7 @@ form {
     color: black;
     padding-left: 10px;
     font-weight: 600;
+    font-size: 14px;
 }
 
 .button_search_form {
@@ -178,6 +179,7 @@ form {
 .button_text {
     color: white;
     font-weight: 600;
+    font-size: 14px;
 }
 
 .fa-search {
@@ -190,6 +192,10 @@ form {
     .fa-search {
         display: none !important;
     }
+
+    .button_search_form {
+        padding: 0 15px 0 15px;
+    }
 }
 
 
@@ -198,6 +204,9 @@ form {
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .fa-search {
         display: none !important;
+    }
+    .button_search_form {
+        padding: 0 15px 0 15px;
     }
 }
 
@@ -217,12 +226,18 @@ form {
 
     .button_search_form {
         border-radius: 15px 15px 15px 15px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        left: -10px;
     }
 
     .button_text {
         display: none;
+    }
+
+    .fa-search {
+        font-size: 15px;
     }
     
 }
@@ -339,6 +354,21 @@ section informations
     align-items: center;
 
 }
+
+
+/******* 
+************************************************
+section card hebergements et les plus populaires
+************************************************
+*******/
+main {
+    max-width: 1600px;
+}
+
+#hosting {
+
+}
+
 
 /******* 
 *******************************************
