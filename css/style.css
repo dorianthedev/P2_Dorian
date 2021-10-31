@@ -546,6 +546,59 @@ section card les plus populaires
     font-size: 14px;
 }
 
+
+
+/******* TABLET section CARD HEBERGEMENTS *******/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .plus_pop {
+        width: 100%;
+    }
+
+    #hosting {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+}
+
+/******* MOBIL section CARD HEBERGEMENTS *******/
+@media screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .plus_pop {
+        width: 100%;
+    }
+
+    #hosting {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .all_card_hosting {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_hebergement {
+        width: 100%;
+    
+    }
+
+}
+
+
+
+
+
+
 /******* 
 *******************************************
 section FOOTER
