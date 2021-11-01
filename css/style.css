@@ -646,7 +646,7 @@ footer {
 
 footer h3 {
     font-size: 14px;
-    margin: 0 35px 0 35px;
+    margin: 0 30px 0 30px;
 }
 
 footer ul {
@@ -665,9 +665,14 @@ footer a {
     color: black;
 }
 
-.block1, .block2, .block3 {
-    margin: 0px 35px;
+.block1, .block2, .block3, .block4 {
+    margin: 0px 30px;
 }
+
+.au_choix h3, .au_choix a {
+    color: #F2F2F2;
+}
+
 
 /******* TABLET footer *******/
 
