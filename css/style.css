@@ -608,6 +608,13 @@ section card les plus populaires
 
 }
 
+/******* 
+*******************************************
+section activités marseille
+*******************************************
+*******/
+
+
 
 
 
@@ -642,6 +649,10 @@ footer li {
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 10px;
+}
+
+footer a {
+    color: black;
 }
 
 .block1, .block2, .block3 {
