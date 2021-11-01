@@ -293,6 +293,7 @@ section filtres
     border-radius: 50%;
     background-color: #DEEBFF;
     flex-wrap: wrap;
+    z-index: 1;
     
 }
 
