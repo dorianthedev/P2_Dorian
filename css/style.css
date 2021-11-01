@@ -257,6 +257,11 @@ section filtres
     margin-right: 20px;
 }
 
+.block_filtre {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .filtres {
     margin-bottom: 15px;
     display: flex;
@@ -269,14 +274,14 @@ section filtres
     display: flex;
     height: 40px;
     align-items: center;
-    margin-left: -21px;
     margin-bottom: 10px;
     margin-top: 10px;
+    flex-wrap: wrap;
     
 }
 
 .filtre_economique {
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .icon_economique {
@@ -287,9 +292,10 @@ section filtres
     align-items: center;
     border-radius: 50%;
     background-color: #DEEBFF;
-    position: relative;
-    right: -20px;
+    flex-wrap: wrap;
+    
 }
+
 
 
 .text_economique {
@@ -300,8 +306,8 @@ section filtres
     display: flex;
     align-items: center;
     border-radius: 0 25px 25px 0;
-    padding: 0 20px 0 30px;
     border-left: none;
+    margin-left: -20px;
     
 }
 
@@ -310,13 +316,17 @@ section filtres
 }
 
 .fa-money-bill-wave, .fa-heart, .fa-dog, .fa-child {
-    color: #0065FC
+    color: #0065FC;
 }
 
 .t_eco {
     font-size: 14px;
     font-weight: 700;
+    padding-left: 35px;
+    padding-right: 30px;
 }
+
+
 
 
 /******* 
