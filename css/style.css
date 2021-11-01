@@ -572,15 +572,25 @@ section card les plus populaires
     main {
         display: flex;
         flex-direction: column-reverse;
+        margin-right: -32px;
     }
 
     .plus_pop {
         width: 100%;
+        margin-left: -32px;
+        margin-right: -35px !important;
+        border-radius: 0 0;
+
+        
     }
+
 
     #hosting {
         margin-top: 30px;
         width: 100%;
+        margin-left:-32px ;
+        margin-right: -50px;
+        padding-right:70px;
     }
     .all_card_hosting {
         display: flex;
