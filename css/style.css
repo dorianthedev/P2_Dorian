@@ -55,6 +55,10 @@ nav a {
     margin-right: 0px;
    
 }
+
+nav ul {
+    padding: 0;
+}
 nav a:hover, nav a:focus {
     color: #0065FC;
     border-top: 2px solid #0065FC;
@@ -589,7 +593,7 @@ section card les plus populaires
     #hosting {
         margin-top: 30px;
         width: 100%;
-        
+        background-color: white;
         padding-right:70px;
     }
     .all_card_hosting {
