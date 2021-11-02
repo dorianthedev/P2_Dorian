@@ -672,7 +672,7 @@ section activités marseille
 }
 
 .activity_box_txt {
-    padding: 10px 10px;
+    padding: 10px 19px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -767,7 +767,27 @@ section activités marseille
     }
 
     .carte1 .activity_box_img {
-        height: 75%;
+        height: 74%;
+    }
+    
+    .carte2 .activity_box_img {
+        height: 74%;
+    }
+
+    .carte3 .activity_box_img {
+        height: 74%;
+    }
+    
+    .carte4 .activity_box_img {
+        height: 74%;
+    }
+
+    .carte5 .activity_box_img {
+        height: 74%;
+    }
+
+    .carte6 .activity_box_img {
+        height: 74%;
     }
     
 }
