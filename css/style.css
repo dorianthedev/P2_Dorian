@@ -393,7 +393,7 @@ main {
     border-radius: 25px;
     padding: 32px;
     min-width: 250px;
-    width: 65%;
+    width: 70%;
     margin-right: 50px;
 }
 
@@ -418,6 +418,10 @@ main {
     min-height: 170px;
     width: 29%;
     transition: transform 0.2s;
+}
+
+.card_hebergement:hover {
+    background-color: #F2F2F2;
 }
 
 .block_img_hebergement {
@@ -514,6 +518,11 @@ section card les plus populaires
     min-height: 130px;
     max-height: 130px;
     transition: transform 0.2s;
+}
+
+.card_pop:hover {
+    background-color: #F2F2F2;
+    box-shadow: 3px 10px 3px rgb(225 225 225);
 }
 
 .img_card_pop {
