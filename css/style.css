@@ -379,7 +379,7 @@ section card hebergements
 main {
     display: flex;
     flex-direction: row;
-    margin: 0 30px 50px 30px;
+    margin: 0 30px 30px;
 }
 
 #hosting {
@@ -596,16 +596,11 @@ section card les plus populaires
     }
 
     .plus_pop {
-        width: 100%;
-        
+        width: 100%;        
         border-radius: 0 0;
-
-        
     }
 
-
     #hosting {
-        margin-top: 30px;
         width: 100%;
         background-color: white;
         padding-right:70px;
@@ -738,6 +733,11 @@ section activités marseille
 
 .activity_box_txt h4 {
     font-size: 16px;
+}
+
+.activity_card:hover {
+    background-color: #F2F2F2;
+    box-shadow: 3px 10px 3px rgb(225 225 225);
 }
 
 
