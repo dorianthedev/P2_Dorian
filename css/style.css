@@ -732,6 +732,13 @@ section activités marseille
     height: 82%;
 }
 
+.activity_box_txt h4 {
+    color: black;
+}
+
+.activity_box_txt h4 {
+    font-size: 16px;
+}
 
 
 /******* 
