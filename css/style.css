@@ -116,9 +116,7 @@ section h1 p formulaire de recherche
 
 .h1_formulaire {
     width: 45%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin: 30px;
+    margin: 30px 30px 15px 30px;
 }
 
 .h1_formulaire h1 {
@@ -139,6 +137,7 @@ form {
 .search_form {
    display: flex;
    height: 40px;
+   margin-top: 20px;
 }
 
 .icon_map_search_form {
@@ -219,7 +218,7 @@ form {
     .h1_formulaire {
         width: 80%;
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     .h1_formulaire h1 {
