@@ -741,6 +741,41 @@ section activités marseille
 }
 
 
+/******* MOBILE section activités *******/
+@media screen and (max-width: 768px) {
+
+    #activity {
+        height: auto;
+    }
+    
+    .all_card_activity {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity_col {
+        width: 100%;
+        row-gap: 0px;
+    }
+    .carte1, .carte2, .carte3, .carte4, .carte5, .carte6 {
+        height: 170px;
+    }
+
+    .carte1, .carte2, .carte3, .carte4, .carte5 {
+        margin-bottom: 30px;
+    }
+
+    .carte1 .activity_box_img {
+        height: 75%;
+    }
+    
+}
+
+
+
+
+
 /******* 
 *******************************************
 section FOOTER
@@ -796,5 +831,4 @@ footer a {
     .block1, .block2, .block3 {
         margin: 0px 35px;
     }
-
 }
