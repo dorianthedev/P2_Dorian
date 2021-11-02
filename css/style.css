@@ -851,4 +851,8 @@ footer a {
     .block1, .block2, .block3 {
         margin: 0px 35px;
     }
+
+    .au_choix {
+        display: none;
+    }
 }
