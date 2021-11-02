@@ -276,7 +276,7 @@ section filtres
     align-items: center;
     margin-bottom: 10px;
     margin-top: 10px;
-    flex-wrap: wrap;
+    
     
 }
 
@@ -292,7 +292,6 @@ section filtres
     align-items: center;
     border-radius: 50%;
     background-color: #DEEBFF;
-    flex-wrap: wrap;
     z-index: 1;
     
 }
@@ -485,7 +484,7 @@ section card les plus populaires
     display: flex;
     flex-direction: column;
     width: 30%;
-    min-width: 327px;
+    min-width: 200px;
     background: #F2F2F2;
     border-radius: 25px;
     padding: 32px;
