@@ -169,6 +169,7 @@ form {
     font-size: 14px;
 }
 
+
 .button_search_form {
     background-color: #0065FC;
     border: none;
@@ -216,7 +217,7 @@ form {
         padding-left: 15px;
         padding-right: 15px;
         position: relative;
-        left: -10px;
+        left: -17px;
     }
 
     .button_text {
