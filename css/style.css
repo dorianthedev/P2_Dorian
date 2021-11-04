@@ -22,7 +22,7 @@ Header version desktop
 
 header {
    display: flex;
-   margin: 10px 30px;
+   margin: 0px 30px 10px 30px;
 }
 
 header img {
@@ -38,10 +38,17 @@ nav {
 
 nav ul {
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 nav li {
     list-style-type: none;
+    text-align: center;
+    border-top: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
 }
 
 nav a { 
@@ -49,17 +56,21 @@ nav a {
     margin: 0 35px;
     color: black;
     font-weight: 600;
-    margin-right: 0px;
+
    
 }
 
 nav ul {
     padding: 0;
 }
-nav a:hover, nav a:focus {
+nav li:hover, nav li:focus {
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    padding: 10px 0 0 0;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
 }
 
 /******* Header version tablet *******/
@@ -80,7 +91,8 @@ nav a:hover, nav a:focus {
     
     nav a {    
         text-align: center;
-        margin-left: 0px;    
+        margin-left: 0px;
+        margin-right: 0px;    
     }
 
     nav li {
