@@ -173,12 +173,17 @@ form {
     background-color: #0065FC;
     border: none;
     border-radius: 0 15px 15px 0;
+    display: none;
 }
 
 .button_text {
+    height: 40px;
+    min-width: 130px;
+    background-color: #3D65FC;
     color: white;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 15px 15px 0;
 }
 
 .fa-search {
@@ -187,27 +192,10 @@ form {
 
 /******* PC section h1 p formulaire de recherche *******/
 
-@media screen and (min-width: 992px) {
-    .fa-search {
-        display: none !important;
-    }
-
-    .button_search_form {
-        padding: 0 15px 0 15px;
-    }
-}
 
 
 /******* TABLET section h1 p formulaire de recherche *******/
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    .fa-search {
-        display: none !important;
-    }
-    .button_search_form {
-        padding: 0 15px 0 15px;
-    }
-}
 
 /******* MOBILE section h1 p formulaire de recherche *******/
 @media screen and (max-width: 768px) {
@@ -237,6 +225,14 @@ form {
 
     .fa-search {
         font-size: 15px;
+    }
+
+    .button_search_form {
+        background-color: #0065FC;
+        border: none;
+        display: flex;
+        align-items: center
+        
     }
     
 }
