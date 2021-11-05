@@ -388,7 +388,7 @@ section card hebergements
 main {
     display: flex;
     flex-direction: row;
-    margin: 0 30px 30px;
+    margin: 0 30px 0px;
 }
 
 #hosting {
@@ -486,6 +486,11 @@ a {
     font-size: 14px;
 }
 
+#hosting h2{
+    font-size: 21px;
+
+}
+
 /******* 
 section card les plus populaires
 *******/
@@ -502,6 +507,7 @@ section card les plus populaires
 .plus_pop h2 {
     display: flex;
     justify-content: space-between;
+    font-size: 21px;
 }
 
 .all_card_pop {
@@ -633,6 +639,7 @@ section card les plus populaires
 
     #hosting h2 {
         margin-top: 0;
+        font-size: 21px;
 
     }
 
@@ -651,7 +658,7 @@ section activités marseille
     padding: 30px 30px;
 }
 .titre_activity {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .all_card_activity {
@@ -773,6 +780,7 @@ section activités marseille
     #activity h2 {
         margin-top: 0;
         margin-bottom: 30px;
+        font-size: 21px;
     }
     
     .all_card_activity {
