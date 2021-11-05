@@ -522,7 +522,7 @@ section card les plus populaires
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(225 225 225);
     min-height: 130px;
-    max-height: 174px;
+    max-height: 130px;
     transition: transform 0.2s;
 }
 
@@ -549,7 +549,7 @@ section card les plus populaires
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    padding: 10px;
+    padding: 0 0 0 5px;
     row-gap: 5px;
 }
 
@@ -559,7 +559,12 @@ section card les plus populaires
 }
 
 .price_card_pop {
-    margin: 0 0 11px 0;
+    margin: 0 0 0 0;
+    padding-top: 7px;
+}
+
+.note_pop {
+    padding-bottom: 5px;
 }
 
 .block_txt_pop h3, p {
