@@ -257,7 +257,7 @@ section filtres
 *******************************************
 *******/
 
-.filtres h3 {
+.filter h3 {
     font-size: 18px;
     margin-right: 20px;
 }
@@ -267,7 +267,7 @@ section filtres
     flex-wrap: wrap;
 }
 
-.filtres {
+.filter {
     margin-bottom: 15px;
     display: flex;
     align-items: center;
@@ -275,7 +275,7 @@ section filtres
     margin: 0 30px;
 }
 
-.filtre_economique, .animaux {
+.block_filter, .animaux {
     display: flex;
     height: 40px;
     align-items: center;
@@ -285,11 +285,11 @@ section filtres
     
 }
 
-.filtre_economique {
+.block_filter {
     margin-right: 20px;
 }
 
-.icon_economique {
+.icon_filter {
     width: 40px;
     height: 40px;
     display: flex;
@@ -303,7 +303,7 @@ section filtres
 
 
 
-.text_economique {
+.block_text_filter {
     width: auto;
     border: 2px solid #F2F2F2;
     margin: auto;
@@ -316,7 +316,7 @@ section filtres
     
 }
 
-.text_economique:hover {
+.block_text_filter:hover {
     background-color: #DEEBFF;
 }
 
