@@ -618,6 +618,8 @@ section card les plus populaires
         width: 100%;
         background-color: white;
         padding-right:70px;
+        margin-top: 0;
+        margin-bottom: -31px;
     }
     .all_card_hosting {
         display: flex;
@@ -627,6 +629,11 @@ section card les plus populaires
     .card_hebergement {
         width: 100%;
     
+    }
+
+    #hosting h2 {
+        margin-top: 0;
+
     }
 
 }
@@ -761,6 +768,11 @@ section activités marseille
 
     #activity {
         height: auto;
+    }
+
+    #activity h2 {
+        margin-top: 0;
+        margin-bottom: 30px;
     }
     
     .all_card_activity {
