@@ -123,17 +123,17 @@ section h1 p formulaire de recherche
 *******************************************
 *******/
 
-.h1_formulaire {
+.h1_form {
     width: 45%;
     margin: 30px 30px 15px 30px;
 }
 
-.h1_formulaire h1 {
+.h1_form h1 {
     font-size: 16px;
     font-weight: 800;
 }
 
-.h1_formulaire p {
+.h1_form p {
     font-size: 12px;
 }
 
@@ -213,13 +213,13 @@ form {
 /******* MOBILE section h1 p formulaire de recherche *******/
 @media screen and (max-width: 768px) {
 
-    .h1_formulaire {
+    .h1_form {
         width: 80%;
         margin-top: 30px;
         margin-bottom: 10px;
     }
 
-    .h1_formulaire h1 {
+    .h1_form h1 {
         font-size: 22px;
         font-weight: 800;
     }
@@ -262,7 +262,7 @@ section filtres
     margin-right: 20px;
 }
 
-.block_filtre {
+.block_all_filter {
     display: flex;
     flex-wrap: wrap;
 }
